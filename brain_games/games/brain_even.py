@@ -1,8 +1,8 @@
 import random
 
-DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 MIN_INT = 1
 MAX_INT = 50
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def generate_game_data():

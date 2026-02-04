@@ -1,9 +1,9 @@
 import random
 
-DESCRIPTION = 'What is the result of the expression?'
 MIN_INT = 1
 MAX_INT = 10
 OPERATORS = ['+', '-', '*']
+DESCRIPTION = 'What is the result of the expression?'
 
 
 def get_correct_answer(int_1, operator, int_2):
