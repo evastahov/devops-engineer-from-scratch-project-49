@@ -23,4 +23,4 @@ def generate_game_data():
     progression = create_progression(FIRST_INT, STEP_COUNT, PROGRESSION_LENGTH)
     question = ' '.join(create_mask(progression, random_index))
     answer = str(progression[random_index])
-    return [question, answer]
+    return question, answer

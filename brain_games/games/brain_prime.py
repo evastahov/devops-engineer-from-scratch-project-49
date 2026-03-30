@@ -18,4 +18,4 @@ def is_prime(n):
 def generate_game_data():
     question = random.randint(MIN_INT, MAX_INT)
     answer = 'yes' if is_prime(question) else 'no'
-    return [str(question), answer]
+    return str(question), answer

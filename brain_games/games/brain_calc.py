@@ -27,4 +27,4 @@ def generate_game_data():
     random_operator = random.choice(OPERATORS)
     question = f'{int_1} {random_operator} {int_2}'
     answer = get_correct_answer(int_1, random_operator, int_2)
-    return [question, str(answer)]
+    return question, str(answer)

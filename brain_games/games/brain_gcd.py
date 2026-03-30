@@ -11,4 +11,4 @@ def generate_game_data():
     int_2 = random.randint(MIN_INT, MAX_INT)
     question = f'{int_1} {int_2}'
     answer = math.gcd(int_1, int_2)
-    return [question, str(answer)]
+    return question, str(answer)
