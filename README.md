@@ -27,3 +27,11 @@
 - brain-gcd
 - brain-progression
 - brain-prime
+
+## Demo
+
+- [Brain-even](https://asciinema.org/a/x8OJj1NwdzhiwNm7)
+- [Brain-calc](https://asciinema.org/a/KwicCH6k696UJYO8)
+- [Brain-gcd](https://asciinema.org/a/xEcEq5kTZXNs94t2)
+- [Brain-progression](https://asciinema.org/a/bsKrSA6kSCdtLH5A)
+- [Brain-prime](https://asciinema.org/a/h0VHKmSKfHKDKEmm)
