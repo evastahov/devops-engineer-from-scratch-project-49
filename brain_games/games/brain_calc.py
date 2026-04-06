@@ -18,7 +18,7 @@ def get_correct_answer(int_1, operator, int_2):
             return int_1 * int_2
         
         case _:
-            return None
+            raise ValueError(f"Unknown operator: '{operator}'")
 
 
 def generate_game_data():
