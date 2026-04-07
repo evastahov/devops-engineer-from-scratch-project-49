@@ -10,13 +10,14 @@ def run_game(game):
         question, answer = game.generate_game_data()
         print(f'Question: {question}')
         user_answer = input('Your answer: ')
-        if user_answer == answer:
-            print('Correct!')
-        else:
+        if user_answer != answer:
             print(
                 f"'{user_answer}' is wrong answer ;(. "
                 f"Correct answer was '{answer}'.\n"
                 f"Let's try again, {user_name}!"
             )
-            return
-    print(f'Congratulations, {user_name}!')
+            break
+        else:
+            print('Correct!')
+    else:
+        print(f'Congratulations, {user_name}!')
